@@ -11,7 +11,7 @@ app.get('/', (request, respose) => {
     100,
   )
 
-  respose.send(`${date.getDate()}/${date.getMonth() + 1}/${date.getFullYear()}`)
+  respose.s(`${date.getDate()}/${date.getMonth() + 1}/${date.getFullYear()}`)
 })
 
 module.exports = app
